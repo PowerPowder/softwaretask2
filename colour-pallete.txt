@@ -2,4 +2,4 @@ Dark red: #aa2e2c
 Light red: #9f1311
 White: #ffffff
 Dark Grey: #1d1815
-Black: #000000
+Black: #000000 
