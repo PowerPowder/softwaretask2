@@ -1,0 +1,58 @@
+/* Width up to 400px - Phone */
+@media screen and (max-width: 400px){
+    .navbar{
+        padding: 0.5em 0;
+    }
+
+    .nav-element{
+        font-size: 1.2em;
+        padding: 0.65em 0.5em;
+    }
+
+    .nav-element:hover{
+        box-shadow: none;
+    }
+
+    .nav-element{
+        display: inline;
+        text-align: left;
+    }
+
+    .nav-text{
+        display: none;
+    }
+}
+
+/* Width from 401px to 500px - Phablet */
+@media (min-width: 401px) and (max-width: 500px){
+    .nav-element{
+        font-size: 1.25em;
+        padding: 0.8em 0.5em;
+    }
+
+    .nav-text{
+        display: none;
+    }
+
+    .nav-element:hover{
+        box-shadow: none;
+    }
+}
+
+/* Width from 501px to 800px - Tablet*/
+@media (min-width: 501px) and (max-width: 800px){
+    .nav-element{
+        font-size: 2em;
+        padding: 0.5em 0.5em;
+    }
+
+    .nav-text{
+        display: none;
+    }
+
+    .nav-element:hover{
+        box-shadow: none;
+    }
+}
+
+/* Anything higher is either a laptop or a desktop and will have text */
