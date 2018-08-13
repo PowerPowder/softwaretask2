@@ -1,0 +1,36 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-container{
+    width: 100%;
+    /* position: fixed; */
+    background-color: #aa2e2c;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.nav-element{
+    display: inline;
+    padding: 1em 0.75em;
+    font-size: 1.25em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-element:hover{
+    background: #9f1311;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-element a{
+    padding: 0 0.5em;
+}
