@@ -32,7 +32,7 @@ td, tr{
 
 .wrapper{
 	display:grid;
-	grid-template-columns:1fr 2fr 2fr;
+	/* grid-template-columns:1fr 2fr 2fr; */
 	grid-gap:0.5em;
 	justify-items:stretch;
 	align-items:stretch;

@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Navbar</title>
     <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/media-queries.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/media-queries-navbar.css">
+	 <link rel="stylesheet" href="/css/styles.css">
+	 <link rel="stylesheet" href="/css/notifications.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Serif+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
@@ -16,11 +17,11 @@
 <div id="navbar" class="nav-wrapper">
     <ul class="navbar-container">
         <div id="nav-expand">
-            <li class="nav-element"><a href="#"><i class="fas fa-home"></i></a><a class="nav-text" href="#">Home</a></li>
-            <li class="nav-element"><a href="#"><i class="fas fa-clone"></i></a><a class="nav-text" href="#">Quicklinks</a></li>
-            <li class="nav-element"><a href="#"><i class="fas fa-map-marker-alt"></i></a><a class="nav-text" href="#">Map</a></li>
-            <li class="nav-element"><a href="#"><i class="fas fa-comment"></i></a><a class="nav-text" href="#">Chat</a></li>
-            <li class="nav-element"><a href="#"><i class="fas fa-external-link-square-alt"></i></a><a class="nav-text" href="#">Flexischools</a></li>
+            <li class="nav-element"><a href="/index.html"><i class="fas fa-home"></i></a><a class="nav-text" href="/index.html">Home</a></li>
+            <li class="nav-element"><a href="/html/quicklinks.html"><i class="fas fa-clone"></i></a><a class="nav-text" href="/html/quicklinks.html">Quicklinks</a></li>
+            <li class="nav-element"><a href="/html/map.html"><i class="fas fa-map-marker-alt"></i></a><a class="nav-text" href="/html/map.html">Map</a></li>
+            <li class="nav-element"><a href="/html/chat.html"><i class="fas fa-comment"></i></a><a class="nav-text" href="/html/chat.html">Chat</a></li>
+            <li class="nav-element"><a href="/html/flexischools.html"><i class="fas fa-external-link-square-alt"></i></a><a class="nav-text" href="/html/flexischools.html">Flexischools</a></li>
         </div>
     </ul>
 </div>
@@ -28,21 +29,16 @@
 <div class="wrapper">
 	<div class="box box1">
 		<h2>Notifcations</h2>
-		<ul>
-			<li><span>Notification</span><i class="fas fa-times-circle" style="float: right;"></i></li>
-			<li><span>Notification</span><i class="fas fa-times-circle" style="float: right;"></i></li>
-			<li><span>Notification</span><i class="fas fa-times-circle" style="float: right;"></i></li>
-			<li><span>Notification</span><i class="fas fa-times-circle" style="float: right;"></i></li>
-			<li><span>Notification</span><i class="fas fa-times-circle" style="float: right;"></i></li>
-			<li>
-				<span>Notification</span>
-				<i class="fas fa-times-circle" style="float: right;"></i>
-			</li>
-			<li>
-				<span>Notification</span>
-				<i class="fas fa-times-circle" style="float: right;"></i>
-			</li>
-			<li><span>Notification</span><i class="fas fa-times-circle" style="float: right;"></i></li>
+		<ul class="notif-wrapper">
+			<button><li class="notif-element" style="cursor: pointer;"><span>Room Change: P3-R1</span><i class="fas fa-times-circle"></i></li></button>
+			<button><li class="notif-element" style="cursor: pointer;"><span>Room Change: P5-R9</span><i class="fas fa-times-circle"></i></li></button>
+			<button><li class="notif-element" style="cursor: pointer;"><span>Notification</span><i class="fas fa-times-circle"></i></li></button>
+			<button><li class="notif-element" style="cursor: pointer;"><span>Notification</span><i class="fas fa-times-circle"></i></li></button>
+			<button><li class="notif-element" style="cursor: pointer;"><span>Notification</span><i class="fas fa-times-circle"></i></li></button>
+			<button><li class="notif-element" style="cursor: pointer;"><span>Notification</span><i class="fas fa-times-circle"></i></li></button>
+			<button><li class="notif-element" style="cursor: pointer;"><span>Notification</span><i class="fas fa-times-circle"></i></li></button>
+			<button><li class="notif-element" style="cursor: pointer;"><span>Notification</span><i class="fas fa-times-circle"></i></li></button>
+			<button><li class="notif-element" style="cursor: pointer;"><span>Notification</span><i class="fas fa-times-circle"></i></li></button>
 		</ul>
 	</div>
 	<div class="box box2">
@@ -132,6 +128,8 @@
 		<p>Hello</p>
 	</div>
 </div>
+
+<script src="js/main.js"></script>
 
 </body>
 </html> 

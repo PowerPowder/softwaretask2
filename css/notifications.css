@@ -1,0 +1,22 @@
+.notif-wrapper *{
+	margin: 0.25em 0;
+}
+
+.notif-wrapper button{
+	display: block;
+	width: 100%;
+	background: #fff;
+	border: 1px solid #777;
+}
+
+.notif-element span{
+	/* float: left; */
+}
+
+.notif-element i{
+	color: #aa2e2c;
+	vertical-align:middle;
+	float:right;
+	line-height: 0.5em;
+	font-size: 1.25em;
+}
