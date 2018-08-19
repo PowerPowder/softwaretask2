@@ -1,0 +1,25 @@
+#quicklinks-wrapper{
+	display: grid;
+ 	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 0.5em;
+}
+
+.quicklink{
+	/* grid-column: 1;
+	grid-row: 1/8; */
+}
+
+.quicklink img{
+	border: 1px solid #ccc;
+	border-radius: 4px;	
+	padding: 0.5em;
+	width: 50px;
+	height: 50px;
+}
+
+.quicklink img:hover{
+	background: #bbb;
+	cursor: pointer;
+}
+
+/* Grid - 4 then 2 then 1 */
