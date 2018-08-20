@@ -1,0 +1,50 @@
+#chat-window{
+	display: inline-block;
+	background:rgba(240, 240, 240, 0.75);
+	padding:1em;
+	border: 1px solid #aa2e2c;
+	border-radius: 4px;
+}
+
+#send-message{
+	border: 1px solid #aa2e2c;
+	border-radius: 4px;
+	background: rgba(240, 240, 240, 0.75);
+	padding: 0.5em;
+	margin-top: 0.25em;
+}
+
+.message-box{
+	width: 90%;
+	border-radius: 4px;
+	padding: 0.25em;
+}
+
+.submit-btn{
+	position: absolute;
+	border: none;
+	border: 1px solid #000;
+	border-radius: 4px;
+	vertical-align: middle;
+	line-height: 15px;
+	padding: 0.25em;
+	margin: 0 0.25em;
+}
+
+.message{
+	border: 1px solid #aa2e2c;
+	background: #fff;
+	border-radius: 8px;
+	padding: 0.75em 0.5em;
+	margin: 0.5em 0;
+}
+
+.server{
+	float: left;
+	width: 500px;
+}
+
+.client{
+	width: 500px;;
+	float: right;	
+}

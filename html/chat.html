@@ -6,22 +6,61 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="/css/navbar.css">
 	<link rel="stylesheet" href="/css/media-queries-navbar.css">
+	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="/css/chat/chat-styles.css">
+	<link rel="stylesheet" href="/css/chat/chat-rooms.css">
+	<link rel="stylesheet" href="/css/chat/chat-window.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Source+Serif+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<title>Chat</title>
 </head>
 <body>
 
 <div id="navbar" class="nav-wrapper">
 	<ul class="navbar-container">
-			<div id="nav-expand">
-				<li class="nav-element"><a href="/index.html"><i class="fas fa-home"></i></a><a class="nav-text" href="/index.html">Home</a></li>
-				<li class="nav-element"><a href="/html/quicklinks.html"><i class="fas fa-clone"></i></a><a class="nav-text" href="/html/quicklinks.html">Quicklinks</a></li>
-				<li class="nav-element"><a href="/html/map.html"><i class="fas fa-map-marker-alt"></i></a><a class="nav-text" href="/html/map.html">Map</a></li>
-				<li class="nav-element"><a href="/html/chat.html"><i class="fas fa-comment"></i></a><a class="nav-text" href="/html/chat.html">Chat</a></li>
-				<li class="nav-element"><a href="/html/flexischools.html"><i class="fas fa-external-link-square-alt"></i></a><a class="nav-text" href="/html/flexischools.html">Flexischools</a></li>
-			</div>
+		<div id="nav-expand">
+			<li class="nav-element"><a href="/index.html"><i class="fas fa-home"></i></a><a class="nav-text" href="/index.html">Home</a></li>
+			<li class="nav-element"><a href="/html/quicklinks.html"><i class="fas fa-clone"></i></a><a class="nav-text" href="/html/quicklinks.html">Quicklinks</a></li>
+			<li class="nav-element"><a href="/html/map.html"><i class="fas fa-map-marker-alt"></i></a><a class="nav-text" href="/html/map.html">Map</a></li>
+			<li class="nav-element"><a href="/html/chat.html"><i class="fas fa-comment"></i></a><a class="nav-text" href="/html/chat.html">Chat</a></li>
+			<li class="nav-element"><a href="/html/flexischools.html"><i class="fas fa-external-link-square-alt"></i></a><a class="nav-text" href="/html/flexischools.html">Flexischools</a></li>
+		</div>
+	</ul>
+</div>
+
+<div id="chat-wrapper">
+	<div id="room-wrapper">
+		<h1>Chat Rooms</h1>
+		<ul id="rooms">
+			<li class="room current">Sports Carnival</li>
+			<li class="room">Swimming Carnival</li>
+			<li class="room">Founders Day</li>
+			<li class="room">..</li>
+			<li class="room">..</li>
+			<li class="room">..</li>
 		</ul>
 	</div>
+	<div id="chat-window-wrapper">
+		<div id="chat-window">
+			<div class="message server">
+				<h1>Person</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium mollitia voluptates provident, dicta excepturi quibusdam!</p>
+			</div>
+			<div class="message client">
+				<h1>User</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium mollitia voluptates provident, dicta excepturi quibusdam!</p>
+			</div>
+			<div class="message server">
+				<h1>Person</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium mollitia voluptates provident, dicta excepturi quibusdam!</p>
+			</div>
+		</div>
+		<form id="send-message">
+			<input class="message-box" type="text" placeholder="Your Message">
+			<input class="submit-btn" type="submit">
+		</form>
+	</div>
+</div>
 
-	<h1>Chat</h1>
 </body>
 </html>

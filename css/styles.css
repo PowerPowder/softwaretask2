@@ -3,6 +3,13 @@ body{
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat;
 }
 
+ul, li, a, p, h1{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
 .time-table, .calender, .recent-quick, .notifactions, p{
 	font-family: 'Source Serif Pro', serif;
 }
