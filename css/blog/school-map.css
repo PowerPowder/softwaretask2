@@ -1,3 +1,7 @@
 #school-map{
 	grid-column: 2;
+	padding: 1em;
+	border: 1px solid #aa2e2c;
+	border-radius: 4px;
+	background:rgba(240, 240, 240, 0.75);
 }
