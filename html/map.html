@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Flexischools</title>
+	<title>Map</title>
 	<link rel="stylesheet" href="/css/navbar.css">
 	<link rel="stylesheet" href="/css/media-queries-navbar.css">
 	<link rel="stylesheet" href="/css/styles.css">
@@ -35,18 +35,19 @@
 	</div>
 	<div id="school-map">
 		<h1>School Map</h1>
-		<img src="/images/map/tmp-map.jpeg" style="width: 400px; height: 400px; transform: rotate(90deg);">
-		<form>
-			<input type="text" placeholder="Level (1 - 5)">
-			<input type="text" placeholder="Room Number">
-			<input type="submit" value="Find">
+		<img id="map-img" src="/images/map/tmp-maps/tmp-map.jpeg" style="width: 400px; height: 400px;">
+		<form id="input-form">
+			<input id="level" class="input-field" type="text" placeholder="Level (1 - 5)">
+			<input id="room" class="input-field" type="text" placeholder="Room Number">
+			<input id="find" class="input-field" onclick="getMapInputs();" type="button" value="Find">
 		</form>
 	</div>
 </div>
 
-<script src="/js/google-maps.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5YLRWjQzIBSL3e_AnZn6VGaqcngV8ufU&callback=gosfordMap"></script>
-<script src="/js/schoolMap.js"></script>
+<script type="text/javascript" src="/js/google-maps.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5YLRWjQzIBSL3e_AnZn6VGaqcngV8ufU&callback=gosfordMap"></script>
+<script type="text/javascript" src="/js/schoolMap.js"></script>
+<script type="text/javascript" src="/js/rooms.json"></script>
 
 </body>
 </html>
