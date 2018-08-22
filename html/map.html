@@ -4,26 +4,49 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Map</title>
+	<title>Flexischools</title>
 	<link rel="stylesheet" href="/css/navbar.css">
 	<link rel="stylesheet" href="/css/media-queries-navbar.css">
 	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="/css/map/google-maps.css">
+	<link rel="stylesheet" href="/css/map/map-styles.css">
+	<link rel="stylesheet" href="/css/map/school-map.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
 
 <div id="navbar" class="nav-wrapper">
 	<ul class="navbar-container">
-			<div id="nav-expand">
-				<li class="nav-element"><a href="/index.html"><i class="fas fa-home"></i></a><a class="nav-text" href="/index.html">Home</a></li>
-				<li class="nav-element"><a href="/html/quicklinks.html"><i class="fas fa-clone"></i></a><a class="nav-text" href="/html/quicklinks.html">Quicklinks</a></li>
-				<li class="nav-element"><a href="/html/map.html"><i class="fas fa-map-marker-alt"></i></a><a class="nav-text" href="/html/map.html">Map</a></li>
-				<li class="nav-element"><a href="/html/chat.html"><i class="fas fa-comment"></i></a><a class="nav-text" href="/html/chat.html">Chat</a></li>
-				<li class="nav-element"><a href="/html/blog.html"><i class="fas fa-external-link-square-alt"></i></a><a class="nav-text" href="/html/blog.html">Blog</a></li>
-			</div>
+		<div id="nav-expand">
+			<li class="nav-element"><a href="/index.html"><i class="fas fa-home"></i></a><a class="nav-text" href="/index.html">Home</a></li>
+			<li class="nav-element"><a href="/html/quicklinks.html"><i class="fas fa-clone"></i></a><a class="nav-text" href="/html/quicklinks.html">Quicklinks</a></li>
+			<li class="nav-element"><a href="/html/map.html"><i class="fas fa-map-marker-alt"></i></a><a class="nav-text" href="/html/map.html">Map</a></li>
+			<li class="nav-element"><a href="/html/chat.html"><i class="fas fa-comment"></i></a><a class="nav-text" href="/html/chat.html">Chat</a></li>
+			<li class="nav-element"><a href="/html/blog.html"><i class="fas fa-external-link-square-alt"></i></a><a class="nav-text" href="/html/blog.html">Blog</a></li>
+		</div>
 	</ul>
 </div>
 
-	<h1>Map</h1>
+<div id="maps-wrapper">
+	<div id="google-maps">
+		<h1>Google Maps</h1>
+		<!-- <img src="/images/map/google-images.jpg" style="width: 400px; height: 400px;"> -->
+		<div id="map"></div>		
+	</div>
+	<div id="school-map">
+		<h1>School Map</h1>
+		<img src="/images/map/tmp-map.jpeg" style="width: 400px; height: 400px; transform: rotate(90deg);">
+		<form>
+			<input type="text" placeholder="Level (1 - 5)">
+			<input type="text" placeholder="Room Number">
+			<input type="submit" value="Find">
+		</form>
+	</div>
+</div>
+
+<script src="/js/google-maps.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5YLRWjQzIBSL3e_AnZn6VGaqcngV8ufU&callback=gosfordMap"></script>
+<script src="/js/schoolMap.js"></script>
+
 </body>
 </html>

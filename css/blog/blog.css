@@ -1,0 +1,23 @@
+#blog-wrapper{
+	margin: 2.25em 25%;
+	background: rgba(240, 240, 240, 0.75);
+	border: 1px solid #aa2e2c;
+	padding: 1em;
+	border-radius: 4px;
+}
+
+.blog-entry{
+	margin: 0 15%;
+}
+
+.blog-entry h1{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	border-bottom: 3px solid #777;
+	margin: 1em 20%;
+}
+
+.blog-entry p{
+	font-family: 'Source Serif Pro', serif;
+	padding: 0.5em 0;
+}
