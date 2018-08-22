@@ -5,3 +5,7 @@
 	border-radius: 4px;
 	background:rgba(240, 240, 240, 0.75);
 }
+
+#input-form *{
+	display: inline;
+}
