@@ -9,6 +9,10 @@
 	border: 1px solid #777;
 }
 
+.notif-wrapper button:hover{
+	background: #eee;
+}
+
 .notif-element span{
 	/* float: left; */
 }

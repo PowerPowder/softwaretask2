@@ -6,6 +6,11 @@
 	background:rgba(240, 240, 240, 0.75);
 }
 
+#school-map h1{
+	padding: 0.25em 0;
+	font-family: 'Roboto', serif;
+}
+
 #input-form *{
 	display: inline;
 }

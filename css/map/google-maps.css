@@ -6,6 +6,11 @@
 	background:rgba(240, 240, 240, 0.75);
 }
 
+#google-maps h1{
+	padding: 0.25em 0;
+	font-family: 'Roboto', serif;
+}
+
 #map{
 	width: 400px;
 	height: 400px;

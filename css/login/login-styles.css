@@ -1,0 +1,38 @@
+#login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	background: rgba(150, 150, 150, 0.75);
+	padding: 1em;
+}
+
+#login *{
+	display: block;
+	padding: 0.5em;
+}
+
+#login h1{
+	text-align: center;
+	font-family: 'Roboto', serif;
+	margin-bottom: 0.5em;
+}
+
+#username, #password{
+	margin: 0 0 1em 0;
+	border: none;
+}
+
+
+#login-btn{
+	margin: 0 auto;
+}
+
+#invalid{
+	color: #db3d47;
+}
+
+.login-screen {
+	display: none;
+}

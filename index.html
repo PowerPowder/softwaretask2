@@ -11,6 +11,7 @@
 	 <link rel="stylesheet" href="/css/home/notifications.css">
 	 <link rel="stylesheet" href="/css/home/rec-quicklinks.css">
 	 <link rel="stylesheet" href="/css/home/rec-blogs.css">
+	 <link rel="stylesheet" href="/css/login/login-styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Serif+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
@@ -28,17 +29,7 @@
     </ul>
 </div>
 
-<!-- onclick="myFunction();"
-onclick="myFunction();"
-onclick="myFunction();"
-onclick="myFunction();"
-onclick="myFunction();"
-onclick="myFunction();"
-onclick="myFunction();"
-onclick="myFunction();"
-onclick="myFunction();" -->
-
-<div class="wrapper">
+<div id="content" class="wrapper login-screen">
 	<div class="box box1">
 		<h2><span id="notif-num">0</span><span id="new"> New</span><span> Notifcations</span></h2>
 		<ul class="notif-wrapper" id="notifications">
@@ -56,9 +47,9 @@ onclick="myFunction();" -->
 	<div class="box box2">
 		<div class="time-table">
 			<div class="test">
-				<i class="fas fa-arrow-left left"></i>
+				<i class="fas fa-arrow-left left" style="cursor: pointer;"></i>
 				<h2>Timetable</h2>
-				<i class="fas fa-arrow-right right"></i>
+				<i class="fas fa-arrow-right right" style="cursor: pointer;"></i>
 			</div>
 			<table>
 					<thead>
@@ -105,9 +96,9 @@ onclick="myFunction();" -->
 	<div class="box box4">
 		<div class="calender">
 			<div class="test">
-				<i class="fas fa-arrow-left left"></i>
+				<i class="fas fa-arrow-left left" style="cursor: pointer;"></i>
 				<h2>Calender</h2>
-				<i class="fas fa-arrow-right right"></i>
+				<i class="fas fa-arrow-right right" style="cursor: pointer;"></i>
 			</div>
 			<table>
 				<thead>
@@ -136,17 +127,21 @@ onclick="myFunction();" -->
 		</div>
 	</div>
 	<div class="box5">
+		<img src="#" style="width: 100px; height: 100px;">
+		<p>*Student Name*</p>
+	</div>
+	<div class="box6">
 		<div class="rec-blog">
 			<h2>Recent Blogs</h2>
 			<a href="#">#Sports Carnival</a>
 			<a href="#">#Swimming Carnival</a>
-			<a href="#">#Founders Day Carnival</a>
+			<a href="#">#Founders Day</a>
 			<a href="#">#..</a>
 			<a href="#">#..</a>
 			<a href="#">#..</a>
 		</div>
 	</div>
-	<div class="box6">
+	<div class="box7">
 		<div class="flexischools">
 			<h1>Flexischools</h1>
 			<p>Reagan Brasch</p>
@@ -157,6 +152,17 @@ onclick="myFunction();" -->
 	</div>
 </div>
 
+<div id="login">
+	<form>
+		<h1>Login</h1>
+		<input type="text" id="username" placeholder="Username">
+		<input type="password" id="password" placeholder="Password">
+		<input type="button" id="login-btn" onclick="displayContents();" value="Login">
+		<p id="invalid" style="display: none; text-align: center;">Invalid login</p>
+	</form>
+</div>
+
+<script src="js/login.js"></script>
 <script src="js/domManip.js"></script>
 
 </body>
