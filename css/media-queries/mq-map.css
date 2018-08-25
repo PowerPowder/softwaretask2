@@ -1,0 +1,29 @@
+@media screen and (max-width: 875px){
+	#maps-wrapper{
+		display: block;
+		margin: 20% 0 0 0;
+		top: 0;
+		left: 0;
+		transform: translate(0, 0);
+		padding: 0;
+		width: 100%;
+	}
+
+	#maps-wrapper div{
+		margin: 0 0 0.5em 0;
+	}
+
+	#map{
+		width: auto;
+	}
+
+	#map-img{
+		height: auto;
+		width:100%;
+	}
+
+	#input-form *{
+		display: block;
+		margin: 0.5em auto;
+	}
+}
