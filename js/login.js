@@ -4,6 +4,7 @@ function displayContents(){
 	let correctpass = "password";
 	let year = 11;
 
+	// Selecting elements
 	let content = document.getElementById("content");
 	let login = document.getElementById("login");
 	let invalid = document.getElementById("invalid");

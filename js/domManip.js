@@ -22,34 +22,3 @@ notifElement.forEach(btn => {
 		}
 	})
 });
-
-// let notifExpand = document.querySelectorAll('.notif-element');
-// let addInfo = document.querySelectorAll('.additional-info');
-// notifExpand.forEach(btn => {
-// 	btn.addEventListener('click', function(){
-// 		let li = this.parentNode;
-// 		console.log(li)
-// 		li.forEach(test => {
-// 			test.addEventListener('click', function(){
-// 				addInfo.style.display = 'block';
-// 			});
-// 		});
-// 	});
-// });
-
-// function myFunction() {
-// 	var test = this.parentNode;
-// 	console.log(test);
-// 	var x = document.querySelector(".additional-info");
-// 	if (x.style.display === "none") {
-// 		 x.style.display = "block";
-// 	} else {
-// 		 x.style.display = "none";
-// 	}
-// }
-
-// let notifElement = document.querySelector(".notif-element");
-// let addInfo = document.querySelectorAll(".additional-info");
-// notifElement.addEventListener("click", function(){
-// 	addInfo.style.display = "block";
-// });
