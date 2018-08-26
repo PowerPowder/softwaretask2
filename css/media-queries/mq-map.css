@@ -1,4 +1,9 @@
 @media screen and (max-width: 875px){
+	#school-map, #google-maps{
+		border-left: none;
+		border-right: none;
+		border-radius: 0;
+	}
 	#maps-wrapper{
 		display: block;
 		margin: 20% 0 0 0;
