@@ -1,0 +1,8 @@
+@media screen and (max-width: 800px){
+	#blog-wrapper{
+		margin: 0.85em 0;
+		border-left: none;
+		border-right: none;
+		border-radius: 0;
+	}
+}

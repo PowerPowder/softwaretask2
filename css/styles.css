@@ -1,6 +1,7 @@
 body{
 	background: url("https://previews.123rf.com/images/cluckva/cluckva1606/cluckva160600021/58815985-geometric-simple-minimalistic-background-triangles-pattern.jpg");
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 ul, li, a, p, h1{
