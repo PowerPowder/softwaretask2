@@ -11,7 +11,7 @@ function getMapInputs(){
 	room = parseInt(room);
 
 	// Change source of image to display appropiate level
-	map = map.src = '/images/map/levels/level-' + level + '.png';
+	map = map.src = 'http://ned.stedwards.nsw.edu.au/group02/images/map/levels/level-' + level + '.png';
 
 	console.log(level);
 	console.log(room);
